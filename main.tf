@@ -1,5 +1,5 @@
 module "cloudtrail_label" {
-  source     = "git::https://github.com/cloudposse/terraform-terraform-label.git?ref=tags/0.4.0"
+  source     = "git::https://github.com/UnionPOS/terraform-null-label.git?ref=up"
   enabled    = var.enabled
   namespace  = var.namespace
   stage      = var.stage
